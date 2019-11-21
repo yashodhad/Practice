@@ -10,6 +10,7 @@ class variable=static variable
 class function=static function .
 """
 class A():
+    #print("test pull")
     y=10
     @staticmethod
     def python():
