@@ -17,3 +17,4 @@ class A():
         print("class A")
 print(A.y)
 A.python()
+print("vikas is bad guy")
