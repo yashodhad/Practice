@@ -2,13 +2,15 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 #from openpyxl import Workbook
 from selenium.webdriver import Chrome
+from webdriver_manager.chrome import ChromeDriverManager
 import re
 import json
 import pytest
 
 def test_webscrap():
 
-  driver=Chrome('D:\\selenium_Drivers\\chromedriver.exe')
+  
+  driver=webdriver.Chrome(ChromeDriverManager().install())
   driver.maximize_window()
   driver.get("https://www.amazon.in/")
   driver.implicitly_wait(10)
