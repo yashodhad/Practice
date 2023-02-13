@@ -11,7 +11,7 @@ def test_webscrap():
   driver=Chrome('D:\\selenium_Drivers\\chromedriver.exe')
   driver.maximize_window()
   driver.get("https://www.amazon.in/")
-  driver.implicitly_wait(20)
+  driver.implicitly_wait(10)
 
 
   driver.find_element(By.XPATH,"//input[contains(@id,'search')]").send_keys("iphones")
