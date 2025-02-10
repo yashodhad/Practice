@@ -3,6 +3,7 @@
 # simple example
 # after commit the file, just test1
 # after commit the file, just test2
+# after commit the file, just test2
 def my_decorator(func):
     def wrapper():
         print("Something is happening before the function is called")
