@@ -1,7 +1,7 @@
 #  A decorator is a function that takes another function as an argument and extends its behavior without modifying it.
 
 # simple example
-
+# after commit the file, just test
 def my_decorator(func):
     def wrapper():
         print("Something is happening before the function is called")
@@ -16,3 +16,5 @@ def say_hello():
 
 # using the decorator function
 say_hello()
+
+
